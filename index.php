@@ -32,6 +32,10 @@
             background-color: #003366;
             color: #fff;
         }
+        .bg-green {
+            background-color: #008000;
+            color: #fff;
+        }
         .hello-world {
             font-size: 92px;
         }
@@ -43,7 +47,7 @@
         }
     </style>
 </head>
-<body class="bg-blue">
+<body class="bg-green">
     <p class="hello-world">&lt;<span>hello</span><span>-world</span> /&gt;</p>
 	<?php echo "<p>".date("F j, Y, g:i a")."</p>"; ?>
 </body>
